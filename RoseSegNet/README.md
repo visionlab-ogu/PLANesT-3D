@@ -27,8 +27,14 @@ If you find our research useful, please consider citing:
 Thanks to the [PointNet++](https://github.com/charlesq34/pointnet2) architecture for sharing their repository publicly. This architecture builds upon the original PointNet++ structure. You can follow the installation instructions from PointNet++ to set up the environment dependencies and compile the TensorFlow operator.
 
 ## Usage
-<strong>Data Preparation</strong>
-The data preparation process involves three steps: 1) Sampling the point cloud and extracting eigenvalues for various radii (which is not used in this work), 2) Saving the preprocessed data as a pickle file, and 3) Splitting the data into training and test samples.
+<strong>Data Preparation:</strong>
+The data preparation process involves two steps: 1) Sampling the point cloud and extracting eigenvalues for various radii (which is not used in this work) and 2) Splitting the data into training and test samples.
+
+```
+python tools/get_sampling_eigen_values.py
+python tools/split_train_test.py
+```
+
 <strong>Train</strong>
 
 <strong>Evaluation</strong>
