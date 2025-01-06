@@ -24,7 +24,7 @@ If you find our research useful, please consider citing:
 
 
 ## Installation
-You can follow Pointnet++ to install environment dependencies and compile TF operator.
+Thanks to the PointNet++ architecture for sharing their repository publicly. This architecture builds upon the original PointNet++ structure. You can follow the installation instructions from PointNet++ to set up the environment dependencies and compile the TensorFlow operator.
 
 ## Usage
 <strong>Data Preparation</strong>
@@ -34,5 +34,4 @@ You can follow Pointnet++ to install environment dependencies and compile TF ope
 <strong>Evaluation</strong>
 
 
-## Acknowledgement
-The structure of this codebase is borrowed from PointNet++.
+
