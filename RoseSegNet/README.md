@@ -28,7 +28,7 @@ Thanks to the [PointNet++](https://github.com/charlesq34/pointnet2) architecture
 
 ## Usage
 <strong>Data Preparation:</strong>
-The data preparation process involves three steps: 1) Sampling the point cloud and extracting eigenvalues for various radii (which is not used in this work), 2) Splitting the data into training and test samples and 3) Dividing each point clouds to pillars following [PointCNN](https://github.com/yangyanli/PointCNN).
+The data preparation process involves three steps: 1) Sampling the point cloud and extracting eigenvalues for various radii (which is not used in this work), 2) Splitting the data into training and test samples and 3) Dividing each point clouds to pillars by following [PointCNN](https://github.com/yangyanli/PointCNN).
 
 ```
 python tools/get_sampling_eigen_values.py
@@ -36,9 +36,16 @@ python tools/split_train_test.py
 python tools/blocks/prepare_seg_data.py
 ```
 
-<strong>Train</strong>
+<strong>Train:</strong> To start training processing of segmentation run this command:
+```
+python train.py
+```
 
-<strong>Evaluation</strong>
+<strong>Evaluation:</strong> After training, to get prediction of each point in the point cloud and then to get metrics run these commands:
+```
+python test.py
+python eval.py
+```
 
 
 
