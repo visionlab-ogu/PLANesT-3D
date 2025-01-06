@@ -24,7 +24,7 @@ If you find our research useful, please consider citing:
 
 
 ## Installation
-Thanks to the PointNet++ architecture for sharing their repository publicly. This architecture builds upon the original PointNet++ structure. You can follow the installation instructions from PointNet++ to set up the environment dependencies and compile the TensorFlow operator.
+Thanks to the [PointNet++](https://github.com/charlesq34/pointnet2) architecture for sharing their repository publicly. This architecture builds upon the original PointNet++ structure. You can follow the installation instructions from PointNet++ to set up the environment dependencies and compile the TensorFlow operator.
 
 ## Usage
 <strong>Data Preparation</strong>
