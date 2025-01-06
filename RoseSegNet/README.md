@@ -36,12 +36,12 @@ python tools/split_train_test.py
 python tools/blocks/prepare_seg_data.py
 ```
 
-<strong>Train:</strong>To begin the training process for segmentation, run the following command:
+<strong>Train:</strong> To begin the training process for segmentation, run the following command:
 ```
 python train.py
 ```
 
-<strong>Evaluation:</strong> Af ter training, to obtain predictions for each point in the point cloud and calculate the metrics, run the following commands:
+<strong>Evaluation:</strong> After training, to obtain predictions for each point in the point cloud and calculate the metrics, run the following commands:
 ```
 python test.py
 python eval.py
