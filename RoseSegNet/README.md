@@ -24,9 +24,14 @@ If you find our research useful, please consider citing:
 
 
 ## Installation
+You can follow Pointnet++ to install environment dependencies and compile TF operator.
 
 ## Usage
-<strong>Data Preparation</strong>.
+<strong>Data Preparation</strong>
+
+<strong>Train</strong>
+
+<strong>Evaluation</strong>
 
 
 ## Acknowledgement
