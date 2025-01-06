@@ -1,5 +1,5 @@
 ## RoseSegNet
-![](https://github.com/visionlab-ogu/PLANesT-3D/blob/main/RoseSegNet/teaser_rosesegnet.png)
+![](https://github.com/visionlab-ogu/PLANesT-3D/blob/main/RoseSegNet/teaser_rosesegnet.PNG)
 
 
 ## Overview
