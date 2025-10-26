@@ -47,11 +47,11 @@ This project utilizes a **hybrid environment**, relying on **MATLAB** for the in
 
 
 ## Usage
-The **SP-LSCnet** framework utilizes the **PLANesT-3D** dataset. Follow these steps to prepare the data for training and evaluation.
+The SP-LSCnet framework is tested on the PLANesT-3D dataset. Follow these steps to prepare the data for training and evaluation.
 
-### Step 1: Download and Place Raw Data
+### Step 1: Download the PLANesT-3D dataset
 
-Obtain the dataset files from the official source. Place the extracted raw data directory. [**Click Here to Download PLANesT-3D**](https://www.dropbox.com/s/8gl0r0zo0j6kmdo/PLANesT-3D.rar?dl=0)
+ [**Click Here to Download PLANesT-3D**](https://www.dropbox.com/scl/fo/c4vqad7ak3a9pv1bkz6x1/AGxXY1yYhWzyjIGaqDwJes8?rlkey=qsukydmtgunpqe6zg8zpsjr2c&st=4l8xznqz&dl=0)
 
 ***
 
@@ -76,7 +76,7 @@ python prepare_plants_h5.py
 ```
 ***
 
-## Step 4: Training and Evaluation
+### Step 4: Training and Evaluation
 
 To begin the training and evaluation processes for LSCnet, executes the following scripts.
 
@@ -89,7 +89,7 @@ python evaluate_feat.py
 ```
 
 
-## Citation
+### Citation
 If you find our research useful, please consider citing:
 ```
 @misc{mertoğlu2024planest3dnewannotateddataset,
